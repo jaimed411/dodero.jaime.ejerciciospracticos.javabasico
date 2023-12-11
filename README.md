@@ -3,3 +3,6 @@
 </p>
 
 ## JAVA BÁSICO
+#Semana 1
+- Hello World
+- Operadores clásicos. De lectura/escritura
