@@ -3,9 +3,7 @@
 </p>
 
 # JAVA BÁSICO
----
 ## Semana 1
----
 - Hello World
 - Operadores clásicos. De lectura/escritura
 - Clase1 - Ejercicio Nº 1 - Sintaxis básica - Individual
