@@ -1,14 +1,8 @@
-/*
-crear y cargar matrix de tamaño n x m y mostrar la suma de cada fila y cada columna
- 1 2 3
- 4 5 6
- 7 8 9
- */
-
 import java.util.Scanner;
 
 public class Matrices {
-    public static void main(String[] args) {
+    // Método para crear y cargar la matriz
+    public static int[][] crearCargarMatriz() {
         Scanner teclado = new Scanner(System.in);
 
         System.out.println("Ingrese el número de filas (n): ");
@@ -27,6 +21,14 @@ public class Matrices {
                 matriz[i][j] = teclado.nextInt();
             }
         }
+
+        return matriz;
+    }
+
+    // Método para mostrar la matriz y calcular sumas
+    public static void mostrarYCalcularSumas(int[][] matriz) {
+        int n = matriz.length;
+        int m = matriz[0].length;
 
         // Mostrar la matriz
         System.out.println("Matriz ingresada:");
